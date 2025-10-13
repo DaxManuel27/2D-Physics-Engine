@@ -8,7 +8,7 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -Iheaders
 TARGET = physics_engine
 
 # Source files
-SRCS = main.cpp core/Vector2D.cpp objects/RigidBody.cpp objects/Collider.cpp
+SRCS = main.cpp core/Vector2D.cpp objects/RigidBody.cpp objects/Collider.cpp objects/Physics.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
